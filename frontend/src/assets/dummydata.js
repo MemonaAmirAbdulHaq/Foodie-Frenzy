@@ -170,3 +170,7 @@ export const bannerAssets = {
     orbitImages: [Image1, Image2, Image3, Image4],
     video: Video,
 };
+
+// export const commonTransition = "transition-all duration-300";
+// export const addButtonBase = "flex items-center gap-2 bg-gradient-to-r from-red-600 to-amber-600 text-white px-5 py-2.5 rounded-xl font-bold border-2 border-amber-400/30";
+// export const addButtonHover = "hover:gap-3 hover:shadow-lg hover:shadow-amber-500/30 active:scale-95 relative overflow-hidden";
