@@ -74,7 +74,8 @@ export const CartProvider=({children})=>{
          removeFromCart,
          updateQuantity,
          cartTotal,
-         totalItemsCount:formatTotalItems(totalItemsCount)
+         totalItems: totalItemsCount,
+         totalItemsCount: formatTotalItems(totalItemsCount)
 
         }}>
             {children}
