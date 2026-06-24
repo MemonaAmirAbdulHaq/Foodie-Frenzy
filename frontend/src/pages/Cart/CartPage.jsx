@@ -2,13 +2,15 @@ import React from 'react'
 import Navbar from '../../components/Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 
-const Cart = () => {
+import Cart from '../../components/Cart/Cart'
+const CartPage = () => {
   return (
    <>
       <Navbar/>
+      <Cart/>
       <Footer/>
    </>
   )
 }
 
-export default Cart
+export default CartPage
