@@ -4,8 +4,9 @@ import Home from './pages/Home/Home'
 import ContactPage from './pages/ContactPage/ContactPage'
 import AboutPage from './pages/AboutPage/AboutPage'
 import Menu from './pages/Menu/Menu'
-import Cart from './pages/Cart/Cart'
+//import Cart from './pages/Cart/CartPage'
 import SignUp from './components/SignUp/SignUp'
+import CartPage from './pages/Cart/CartPage'
 //import Login from './components/Login/Login'
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
 <Route path='/contact' element={<ContactPage/>}/>
 <Route path='/about' element={<AboutPage/>}/>
 <Route path='/menu' element={<Menu/>}/>
-<Route path='/cart' element={<Cart/>}/>
+<Route path='/cart' element={<CartPage/>}/>
 
 <Route path='login' element={<Home/>}/>
 <Route path='signup' element={<SignUp/>}/>
